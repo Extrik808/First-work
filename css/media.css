@@ -1,0 +1,4 @@
+@media (max-width: @screen-xs-max) {  }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { 750px }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { 970px }
+@media (min-width: @screen-lg-min) { 1170px }

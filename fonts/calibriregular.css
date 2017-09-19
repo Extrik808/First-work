@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'calibriregular';
+    src: url('fonts/calibriregular.eot');
+    src: url('fonts/calibriregular.eot') format('embedded-opentype'),
+         url('fonts/calibriregular.woff2') format('woff2'),
+         url('fonts/calibriregular.woff') format('woff'),
+         url('fonts/calibriregular.ttf') format('truetype'),
+         url('fonts/calibriregular.svg#calibriregular') format('svg');
+}

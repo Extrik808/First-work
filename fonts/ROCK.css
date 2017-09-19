@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'ROCK';
+    src: url('fonts/ROCK.eot');
+    src: url('fonts/ROCK.eot') format('embedded-opentype'),
+         url('fonts/ROCK.woff2') format('woff2'),
+         url('fonts/ROCK.woff') format('woff'),
+         url('fonts/ROCK.ttf') format('truetype'),
+         url('fonts/ROCK.svg#ROCK') format('svg');
+}
