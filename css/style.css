@@ -28,6 +28,26 @@ body {
 }
 
 
+.navbar {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.75);
+    background: white;    
+}
+.slider {
+    background: white;
+    padding-bottom: 20px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.75);
+    margin-bottom: 10px;
+}
+.content {
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 15px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.75);
+   
+    
+}
+
+
 
 
 
