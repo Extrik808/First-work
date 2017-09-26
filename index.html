@@ -25,71 +25,82 @@
     <script src="js/bootstrap.js"></script>
     
       
-        <div class="container">
-          <div class="row">
-            <div class="logo" class="img-responsive">
-                <a href="#">LOGO</a>
-            </div>
-            <div class="navbar navbar-default">
-                <div class="container">
-                  <div class="navbar-header">
-                    <button type="button"class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
-                      <span class="sr-only">Открыть навигацию</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="responsive-menu">
-                      <ul class="nav navbar-nav">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div> 
+        <!--                            Логотип                           -->      
+<div class="container">
+  <div class="row">
+    <div class="logo" class="img-responsive">
+      <a href="#">LOGO</a>
+    </div>
+  </div>
+</div>
+        <!--                            Навигация                           -->
+<div class="container">
+  <div class="row">
+    <div class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button"class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+            <span class="sr-only">Открыть навигацию</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="responsive-menu">
+            <ul class="nav navbar-nav">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+              <li>
+                <input type="search" name="q" placeholder="search"> 
+                <input type="submit" value="" >
+                <span class="glyphicon glyphicon-search"></span>
+              </li>
+            </ul>
           </div>
-        </div>
-      </nav>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 slider">
-        	<br />
-          <div id="carousel" class="carousel slide">
-            <ol class="carousel-indicators">
-             <li class="active" data-target="#carousel" data-slide-to="0"></li>
-             <li data-target="#carousel" data-slide-to="1"></li>
-             <li data-target="#carousel" data-slide-to="2"></li>
-             <li data-target="#carousel" data-slide-to="3"></li>
-            </ol>
-          <div class="carousel-inner">
-          <div class="item active">
-          <img src="img/1.jpg" alt="" class="img-responsive">
-          </div>
-        <div class="item">
-          <img src="img/2.jpg" alt="" class="img-responsive" >
-        </div>
-        <div class="item">
-          <img src="img/3.jpg" alt="" class="img-responsive" >
-        </div>
-        <div class="item">
-          <img src="img/4.jpg" alt="" class="img-responsive" >
         </div>
       </div>
-        <a href="#carousel" class="left carousel-control" data-slide="prev"> 
+    </div> 
+  </div>
+</div>
+        <!--                            Слайдер                          -->
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 slider">
+      <br />
+    <div id="carousel" class="carousel slide">
+      <ol class="carousel-indicators">
+        <li class="active" data-target="#carousel" data-slide-to="0"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+        <li data-target="#carousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/1.jpg" alt="">
+        </div>
+        <div class="item">
+          <img src="img/2.jpg" alt="">
+        </div>
+        <div class="item">
+          <img src="img/3.jpg" alt="">
+        </div>
+        <div class="item">
+          <img src="img/4.jpg" alt="">
+        </div>
+      </div>
+      <a href="#carousel" class="left carousel-control" data-slide="prev"> 
         <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a href="#carousel" class="right carousel-control" data-slide="next">
+      </a>
+      <a href="#carousel" class="right carousel-control" data-slide="next">
         <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
-    </div>
-    </div>
-    </container>
-      
-
-
+      </a>
+     </div>
+   </div>
+ </div>
+</div>
+</container>
+         <!--                            Контент                           -->
 <content>
   <div class="container">
     <div class="row">
@@ -97,34 +108,112 @@
         <img src="img/1.jpg" class="img-responsive"/>
         <p>Lorem ipsum dolor sit amet, uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. 
           ipsum dolor sit amet, consectetuer Duis autem vel Lorem ipsum Lorem ipsum dolor sit amet, 
-          uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet, consectetuer </p>
+          uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet, consectetuer 
+        </p>
+        <div>
+          <div class="more">
+            <a href="#">more...</a>
+          </div>
+        </div>
       </div>
       <div class="col-md-3 content">
         <img src="img/2.jpg" class="img-responsive"/>
         <p>Lorem ipsum dolor sit amet, uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. 
           ipsum dolor sit amet, consectetuer Duis autem vel Lorem ipsum Lorem ipsum dolor sit amet, 
-          uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet, consectetuer </p>
+          uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet, consectetuer 
+        </p>
+        <div>
+          <div class="more">
+            <a href="#">more...</a>
+          </div>
+        </div>
       </div>
       <div class="col-md-3 content">
         <img src="img/3.jpg" class="img-responsive"/>
         <p>Lorem ipsum dolor sit amet, uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. 
           ipsum dolor sit amet, consectetuer Duis autem vel Lorem ipsum Lorem ipsum dolor sit amet, 
-          uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet, consectetuer </p>
+          uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet, consectetuer 
+        </p>
+        <div>
+          <div class="more">
+            <a href="#">more...</a>
+          </div>
+        </div>
       </div>
       <div class="col-md-3 content">
         <img src="img/4.jpg" class="img-responsive"/>
         <p>Lorem ipsum dolor sit amet, uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. 
           ipsum dolor sit amet, consectetuer Duis autem vel Lorem ipsum Lorem ipsum dolor sit amet, 
-          uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet, consectetuer </p>
+          uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet, consectetuer 
+        </p>
+        <div>
+          <div class="more">
+            <a href="#">more...</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </content>
-
-      
-    
-    
-
-    
-  </body>
+          <!--                            Инфо                          -->
+<div>
+  <div class="container info">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="row">
+          <div class="col-md-6">
+            <br />
+            <img src="img/1.jpg" class="img-responsive"/>
+          </div>
+          <br />
+          <div class="col-md-6">
+            <img src="img/2.jpg" class="img-responsive"/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <br />
+            <img src="img/3.jpg" class="img-responsive"/>
+          </div>
+          <br />
+          <div class="col-md-6">
+            <img src="img/4.jpg" class="img-responsive"/>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-9">
+        <h3>Welcome to the site</h3>
+          <p>
+            Lorem ipsum dolor sit amet, uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. 
+            ipsum dolor sit amet, consectetuer Duis autem vel Lorem ipsum Lorem ipsum dolor sit amet, 
+            uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet, 
+            consectetuer  Lorem ipsum dolor sit amet, uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. 
+            ipsum dolor sit amet, consectetuer Duis autem vel Lorem ipsum Lorem ipsum dolor sit amet, 
+            uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet, 
+            consectetuer 	Lorem ipsum dolor sit amet, uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. 
+            ipsum dolor sit amet, sectetuer.
+          </p>
+          <div>
+          <div class="more">
+            <a href="#">more...</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          <!--                            Футер                        -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 fut">
+       <ul class="futer">
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">© 2009  Designzzz (www.designzzz.com)</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</body>
 </html> 
+
