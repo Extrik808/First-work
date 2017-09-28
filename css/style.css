@@ -1,3 +1,4 @@
+      /*                Подключение шрифтов                */ 
 @font-face {
     font-family: 'ROCK';
     src: url('fonts/ROCK.eot');
@@ -16,29 +17,26 @@
          url('fonts/calibriregular.ttf') format('truetype'),
          url('fonts/calibriregular.svg#calibriregular') format('svg');
 }
-/* Это комментарий */
+       /*                     Шрифты и фон                  */
 body {
-
-    
     font-family: "ROCK";
-    
     background-image: url('../img/Background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-
 }
-
-
+       /*                     Навигация                  */
 .navbar {
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.75);
     background: white;    
 }
+        /*                     Слайдер                  */
 .slider {
     background: white;
     padding-bottom: 20px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.75);
     margin-bottom: 10px;
 }
+        /*                     Контент                  */
 .content {
     background-color: white;
     margin-top: 10px;
@@ -47,11 +45,13 @@ body {
     margin-bottom: 10px; 
     padding-bottom: 20px; 
 }
+        /*                     Логотип                */
 .logo {
     text-align: center;
     font-size: 80px;
     margin-bottom: 30px;
 }
+       /*                     Ссылки                 */
 a {
     text-decoration: none;
     color: black;
@@ -60,14 +60,17 @@ a:hover {
     text-decoration: none;
     color: black;
 }
+         /*              Переход на подробнее           */
 .more {
     text-decoration: underline;
     text-align: right;
 }
+          /*                     Текст                 */
 p {
     text-indent: 40px;
     text-align: justify; 
-   }
+}
+           /*                     Инфо                 */ 
 .info {
     background-color: white;
     margin-top: 10px;
@@ -76,6 +79,7 @@ p {
     margin-bottom: 10px;
      
 }
+       /*                     Футер                 */ 
 ul.futer li {
     display: inline;
     padding-right: 15px;
@@ -88,6 +92,14 @@ ul.futer li {
     margin-bottom: 10px;
     padding-top: 15px;
     font-family: "calibriregular";
+}
+         /*                     Поиск                */
+.form-group {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 8px;
+    padding-right: 60px;
 }
 
 
